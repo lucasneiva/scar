@@ -44,7 +44,7 @@ The primary gameplay loop focuses on **exploration**, where moving into uncharte
 ## Technology Stack (Initial)
 
 *   **Language:** Python 3.x
-*   **LLM Interaction:** `openai` library (or equivalent for chosen provider)
+*   **LLM Interaction:** `google-generativeai` library (or equivalent for chosen provider)
 *   **World Graph:** `networkx` library
 *   **Configuration/State (Simple):** Potentially JSON for initial setup or simple state.
 
@@ -60,8 +60,6 @@ The primary gameplay loop focuses on **exploration**, where moving into uncharte
     python -m venv venv
     # On Windows:
     # venv\Scripts\activate
-    # On macOS/Linux:
-    # source venv/bin/activate
     ```
 3.  **Install dependencies:**
     ```bash
@@ -69,31 +67,12 @@ The primary gameplay loop focuses on **exploration**, where moving into uncharte
     # (You'll need to create a requirements.txt file - see below)
     ```
 4.  **Configure API Key:**
-    *   Set your LLM provider's API key as an environment variable (Recommended). For OpenAI:
-        ```bash
-        # On Windows (Command Prompt)
-        # set OPENAI_API_KEY=your_actual_api_key
-        # On Windows (PowerShell)
-        # $env:OPENAI_API_KEY="your_actual_api_key"
-        # On macOS/Linux
-        # export OPENAI_API_KEY='your_actual_api_key'
-        ```
-    *   Alternatively, consider using a `.env` file and the `python-dotenv` library. **Do not commit your API key directly into the code.**
+    *  Use a `.env` file and the `python-dotenv` library.
+
 5.  **Run the main script:**
     ```bash
     python main.py
     ```
-
-## Creating `requirements.txt`
-
-As you add libraries, keep this file updated. Initially, it might contain:
-
-
-openai
-networkx
-
-python-dotenv # If you use .env files
-Run `pip freeze > requirements.txt` periodically to capture all dependencies.
 
 ## Contributing
 
