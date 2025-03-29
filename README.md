@@ -1,5 +1,3 @@
-Okay, here's a template for a README.md file for your WEAVE project repository on GitHub. It's designed for the early stages (MVP focus) but sets a good foundation.
-
 # WEAVE - World Engine Architecture for Vivid Exploration
 
 **WEAVE** is an experimental project aiming to create a text adventure engine that blends procedural world generation powered by Large Language Models (LLMs) with a robust consistency layer managed by code. The goal is to provide an immersive exploration experience akin to reading an interactive book, where the world unfolds dynamically but maintains structural integrity and memory.
