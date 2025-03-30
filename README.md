@@ -1,4 +1,7 @@
-# SCAR - simulated Combat Action Resolver
+
+![ChatGPT Image Mar 30, 2025, 07_59_24 PM](https://github.com/user-attachments/assets/34591dd2-61b8-47eb-b319-3ff0d3bc0ebe)
+
+# SCAR - Simulated Combat Action Resolver
 
 **SCAR** is an experimental project that creates a brutal, horror-focused text adventure with a revolutionary combat system powered by Large Language Models (LLMs). Players navigate a nightmarish realm where bodily harm, sanity, and survival are constantly at stake, with combat outcomes determined through natural language processing.
 
