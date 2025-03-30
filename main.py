@@ -1,10 +1,8 @@
-# --- START OF FILE main.py ---
-
 import os
 import re # Using regex for slightly more robust parsing
 from dotenv import load_dotenv
 import google.generativeai as genai
-import time # To add slight pauses for readability
+import time
 
 # --- Configuration ---
 PLAYER_START_HP = 50
@@ -141,7 +139,7 @@ def parse_llm_response(text):
 
 # --- Main Game Loop ---
 if __name__ == "__main__":
-    print("--- FLESH - Minimal Viable Prototype ---")
+    print("--- SCAR - Minimal Viable Prototype ---")
 
     if not configure_gemini():
         print("\n❌ Critical Error: Could not configure Gemini. Exiting.")
@@ -231,5 +229,3 @@ if __name__ == "__main__":
         turn += 1 # Increment turn counter
 
     print("\n--- Game Over ---")
-
-# --- END OF FILE main.py ---

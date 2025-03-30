@@ -1,12 +1,12 @@
-# FLESH - Fate-Linked Encounter Simulation Handler
+# SCAR - simulated Combat Action Resolver
 
-**FLESH** is an experimental project that creates a brutal, horror-focused text adventure with a revolutionary combat system powered by Large Language Models (LLMs). Players navigate a nightmarish realm where bodily harm, sanity, and survival are constantly at stake, with combat outcomes determined through natural language processing.
+**SCAR** is an experimental project that creates a brutal, horror-focused text adventure with a revolutionary combat system powered by Large Language Models (LLMs). Players navigate a nightmarish realm where bodily harm, sanity, and survival are constantly at stake, with combat outcomes determined through natural language processing.
 
 **(Early Development / Core Combat Focus)**
 
 ## Core Concept
 
-FLESH takes a different approach to text-based gaming by focusing on visceral, detailed combat in a horrifying world:
+SCAR takes a different approach to text-based gaming by focusing on visceral, detailed combat in a horrifying world:
 
 1. **Natural Language Combat**: Players describe their actions in plain language, and the LLM interprets and judges the outcomes based on character stats, enemy attributes, and environmental factors.
 
@@ -58,8 +58,8 @@ The primary gameplay loop focuses on **surviving encounters** with nightmarish e
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/flesh.git
-   cd flesh
+   git clone https://github.com/your-username/scar.git
+   cd SCAR
    ```
 
 2. **Set up environment:**
@@ -90,4 +90,4 @@ This is currently a personal experimental project. Contributions are not activel
 
 ---
 
-> *"In FLESH, survival is temporary. Horror is eternal."*
+> *"In SCAR, survival is temporary. Horror is eternal."*
